@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+img {
+border: none;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #afafaf;
+	background-color: #f8f8f8;
+	margin: 0; /*brak luki*/
+
+}
+
+a {
+	color:#b86443;
+}
+
+#top-nav {
+	border-top: 1px solid #afafaf;
+	border-bottom: 1px solid #afafaf;
+	text-transform: uppercase;
+	list-style: none;
+	text-align: center;
+	padding: 0 0 0 220px; /*odległość odbieżona w PS*/
+	margin: 40px 0;
+	font-size: 14px;
+}
+
+#top-nav li {
+	float: left;
+	list-style-position: outside;
+	position: relative;
+	margin: 16px 20px;
+
+}
+
+#top-nav a {
+	color: #afafaf;
+	text-decoration: none;
+}
+
+#top-nav a:hover {
+	color:#333;
+}
+
+#clear {
+	clear: both; /* clear float after you set it */
+}
+
+#wrapper {
+	width: 940px;
+	margin: 40px auto 80px auto;
+}
+
+#top-silver {
+	background-color: #dfdfdf;
+	height: 3px;
+}
+
+#dark-silver {
+	background-color: #000000;
+	width: 940px; /*tyle co wrapper*/
+	height: 3px;
+	margin: auto; /*wycentrowanie*/
+}
+
+#logo {
+	text-align: center;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 40px;
+	padding: 0 55px;
+}
+
+h1 strong {
+	color:#b86443;
+	font-weight: normal;
+}
+
+
+#info-icon {
+	float: left;
+	margin: 16px 16px 16px 0;
+
+}
+
+#info h2 {
+	color:#808080;
+	font-weight: normal;
+	margin: 0px 0px 14px;
+	padding: 0px;
+}
+
+p {
+	margin:0px;
+	padding: 0px;
+}
+
+#info p {
+	line-height: 22px;
+}
+
+#info {
+width:600px;
+padding-bottom: 16px;
+margin-bottom: 16px;
+border-top: 1px none #a8a8a8;
+border-right: 1px none #a8a8a8;
+border-bottom: 1px solid #a8a8a8;
+border-left: 1px none #a8a8a8;
+}
+
+#info:last-child {
+	border: none;
+	margin-bottom: 0px;
+
+}
+
+#blog h3, #social h3 {
+	font-weight: normal;
+	color: #333;
+	font-size: 14px;
+	width: 280px;
+}
+
+img#rss {
+	float: right;
+}
+
+#blog-list {
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+
+}
+
+#blog-list li {
+	border-top: solid #c3c3c3 1px;
+	padding: 10px;
+	color:#333;
+	font-size: 12px;
+	margin: 0;
+	width: 280px;
+}
+
+#blog-list li:last-child {
+	border-bottom: solid #c3c3c3 1px;
+}
+
+#blog-list li:nth-child(odd) {
+	background-color: #f0f0f0;
+}
+
+#social img {
+	margin:0 10px 0 0;
+}
+
+#column-right {
+	vertical-align: top;
+}
+
+#column-left {
+	padding: 0 40px 0 0;
+}
+
+#footer {
+	background-color: #f0f0f0;
+	text-align: center;
+	padding: 20px;
+	font-size: 12px;
+	margin: 0;
+	height: 235px;
+}
+
+#bottom-nav {
+	width: 300px;
+	margin: 10px auto 20px auto;	
+}
+
+#bottom-nav li {
+	float: left;
+	list-style: none;
+	margin: 0 10px 0 0;
+}
+
+#bottom-nav li a {
+	text-decoration: none;
+}

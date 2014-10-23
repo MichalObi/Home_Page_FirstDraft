@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<html lang="pl" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/animacja.css">
+  		<link rel="stylesheet" href="css/uikit.docs.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+  		<link rel="stylesheet" type="text/css" href="css/themes/tooltipster-light.css" />
+  		<link rel="stylesheet" type="text/css" href="css/themes/tooltipster-noir.css" />
+  		<link rel="stylesheet" type="text/css" href="css/themes/tooltipster-punk.css" />
+  		<link rel="stylesheet" type="text/css" href="css/themes/tooltipster-shadow.css" />
+  		<link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
+  		<link href='http://fonts.googleapis.com/css?family=Ceviche+One' rel='stylesheet' type='text/css'>
+  		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.'></script>
+  		<title>Strona Domowa M.O.</title>
+	</head>
+	<body class="backg">
+		<nav class="uk-navbar" id="uk-navbar">
+			<ul class="uk-navbar-nav">
+				<li class="uk-active"><a href="index.html"><i class="uk-icon-home"></i><strong> Strona Startowa</strong></a></li>
+				<li><a href="Michał_Obielecki_CV.pdf"><i class="uk-icon-list-alt"></i> CV</a></li>
+				<li><a href="Portfolio.html"><i class="uk-icon-folder-open"></i> Portfolio</a></li>
+				<li><a href="Kontakt.html"><i class="uk-icon-envelope"></i> Kontakt</a></li>
+			</ul>
+			<div class="uk-navbar-flip button-nav-hide"><button class="uk-button" id="nav-hide">Ukryj menu</button></div>
+		</nav>
+		<div class="hidden-button"><button class="uk-button">Pokaż menu</button></div>
+
+		<script src="js/main.js"></script>
+		<div class="uk-grid">
+				<div class="uk-container-center" id="container">
+					<div class="uk-width-1-2">
+						<article class="uk-article" id="article">
+							<h1 class="uk-article-title">Witam Serdecznie !</h1>
+							<p class="uk-article-lead">
+							Niniejsza strona prezentuje zakres moich umiejętności w dziedzinie webdesignu oraz programowania.
+							</br></br>
+							Zachęcam przede wszystkim do zapoznania się z moim portfoli.
+							</br> W przypadku jakichkolwiek pytań - zapraszam do kontaktu.</br></br> 
+							Poniżej kilka szybkich informacji o mnie - najedź kursorem na wybrane pole, by poznać szczegóły:</p>
+						</article>
+					</div>	
+				<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+					<div class="flipper">
+							<div class="front">
+								<img id="obrazek1" src="img/HTML5.png" alt="HTML5">
+							</div>
+							<div class="back">
+								<img id="obrazek2" src="img/CSS3.png" alt="CSS3">
+							</div>
+					</div>
+					<p id="opis-animacji">Animacja wykonana w <span id="span1">HTML5</span> i <span id="span2">CSS3</span>. <span id="span3">Najedź</span> kursorem, by zobaczyć efekt.</p>
+					</div>
+				</div>	
+				<div class="uk-width-1-2" id="cechy-wrapper">
+					<div class="panel-wrapper">
+							<div class="uk-panel uk-panel-box uk-width-1-4" id="panel1"><h3 class="uk-panel-title">O mnie</h3></div>
+							<div class="uk-panel uk-panel-box uk-width-1-4" id="panel2"><h3 class="uk-panel-title">Doświadczenie</h3></div>
+							<div class="uk-panel uk-panel-box cechy uk-width-1-4" id="panel3"><h3 class="uk-panel-title">Zainteresowania</h3></div>
+						</div>
+							<div class="uk-panel  uk-width-2-3" id="opis1"><h4 class="uk-panel-title">Na imie mam Michał i jestem studentem 2 roku Wyższej Szkoły Bankowej w Poznaniu na kierunku Informatyka.</h4></div>
+							<div class="uk-panel  uk-width-2-3" id="opis2"><h4 class="uk-panel-title">Posiadam doświadczenie w projektach realizowanych na uczelni w technologiach takich jak: HTML5/CSS3, JavaScript z biblioteką jQuery, strony internetowe w ASP.NET i programy w C#.</h4>
+							</div>
+							<div class="uk-panel  uk-width-2-3" id="opis3"><h4 class="uk-panel-title">Moje zainteresowania to przede wszystkim tworzenie stron internetowych oraz oprogramowania.</br></br> 
+							Interesuję się również Game designem, literaturą Science-Fiction, oraz tworzeniem muzyki na komputerze.
+							</h4>
+							</div>
+					</div>
+					<script src="js/main.js"></script>
+				</div>
+					<div id="stopka">
+						<div class="uk-grid">
+							<div class="uk-width-medium-1-3">
+								<p>Created by Michał Obielecki &copy;</br>
+								Strona stworzona przy użyciu <a href="">UIkit framework</a></p>
+							</div>
+						</div>
+					</div>
+				</body>
+			</html>

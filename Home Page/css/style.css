@@ -1,0 +1,161 @@
+.backg {
+	background: url(../img/background.jpg) top center no-repeat;
+	background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#uk-navbar {
+	position:fixed;
+	width: 100%;
+}
+
+#nav-hide{
+font-style: italic;
+margin-top: 5px;
+margin-right: 5px;
+}
+
+.hidden-button {
+display: none;
+text-align: center;
+margin-top: 5px;
+margin-right: 5px;
+}
+
+.flip-container {
+    position: relative;
+    margin-left: 900px;
+}
+#container {
+	position: absolute;
+	margin-top: 75px;
+    margin-left: 150px;
+}
+
+#article {
+position: relative;
+margin-top: 30px;
+padding-left: 50px;
+float: left;
+}
+
+#article h1 {
+    font-family: 'Ceviche One', cursive;
+}
+
+#article p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#obrazek1,#obrazek2 {
+	width: 320px;
+    height: 320px;
+}
+
+.front {
+    z-index: 2;
+}
+
+#cechy-wrapper {
+    position: relative;
+    margin-top: 350px;
+    margin-left: 165px;
+}
+
+ #opis-animacji {
+padding-top: 350px;
+padding-left: 40px;
+}
+#span1 {
+color:rgb(255,69,0);
+font-weight: 500;
+}
+#span2 {
+color:rgb(0,191,255);
+font-weight: 500;
+}
+
+#span3 {
+	font-weight: 800;
+}
+
+#panel1{
+	display: inline-block;
+	float: left;
+	margin-top: 60px;
+}
+
+#panel1:hover {
+	border:3px dotted #d32c46;
+}
+
+#panel1 h3 {
+	padding-left: 50px;
+}
+
+#panel2{
+	display: inline-block;
+	float: left;
+	margin-top: 60px;
+	margin-left: 10px;
+}
+
+#panel2:hover {
+	border:3px dotted #d32c46;
+}
+
+#panel2 h3 {
+	padding-left: 25px;
+}
+
+#panel3{
+	display: inline-block;
+	float: left;
+	margin-top: 60px;
+	margin-left: 10px;
+}
+
+#panel3:hover {
+	border:3px dotted #d32c46;
+}
+
+#panel3 h3 {
+	padding-left: 18px;
+}
+
+#opis1 {
+	display: none;
+	position: absolute;
+	margin-top: 150px;
+    margin-left: 50px;
+}
+
+#opis2 {
+	display: none;
+	position: absolute;
+	margin-top: 150px;
+    margin-left: 50px;
+}
+
+#opis3 {
+	display: none;
+	position: absolute;
+	margin-top: 150px;
+    margin-left: 50px;
+}
+
+#stopka {
+    width:100%;
+    height:50px;
+    position:absolute;
+    bottom:0;
+    left:0;
+	background: #d32c46;
+	color: white;
+    padding-left: 10px;
+}
